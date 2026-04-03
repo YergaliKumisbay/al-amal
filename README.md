@@ -1,16 +1,60 @@
-# React + Vite
+Түсіндім. Сізге README файлының **орыс тіліндегі нұсқасы** қажет. Төмендегі мәтінді көшіріп, `README.md` файлының ішіне қойыңыз.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```markdown
+# Al-Amal
 
-Currently, two official plugins are available:
+Al-Amal — интернет-магазин или корпоративный сайт компании. Проект использует современные веб-технологии для обеспечения быстрого и удобного пользовательского интерфейса.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Используемые технологии
 
-## React Compiler
+- **React 19** — основная библиотека
+- **React Router DOM v7** — маршрутизация между страницами
+- **Vite** — сборка проекта и сервер разработки
+- **CSS3** — стилизация (без дополнительных препроцессоров)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Установка и запуск
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Клонировать репозиторий:
+   ```bash
+   git clone <repository-url>
+   cd al-amal
+   ```
+
+2. Установить зависимости:
+   ```bash
+   npm install
+   ```
+
+3. Запустить в режиме разработки:
+   ```bash
+   npm run dev
+   ```
+
+4. Собрать production-версию:
+   ```bash
+   npm run build
+   ```
+
+5. Предварительный просмотр собранной версии:
+   ```bash
+   npm run preview
+   ```
+
+## Примечания
+
+- Проект работает в режиме `type: "module"` (ES Modules).
+- Для шрифтов используется внешний `kz-circle.css`.
+- Файл `favicon.png` должен находиться в папке `public`.
+
+## Линтер
+
+Для проверки правил ESLint:
+```bash
+npm run lint
+```
+
+## Лицензия
+
+Все права защищены. © 2025 Al-Amal
+```
